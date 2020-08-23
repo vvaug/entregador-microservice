@@ -20,6 +20,8 @@ public class PedidoRequest {
 	private List<ProdutoRequest> produtos;
 	private Boolean entrega;
 	private String formaPagamento;
-	private ClienteRequest dadosCliente;
-	private EntregaRequest dadosEntrega;
+	private String nomeCliente;
+	private String telefoneCliente;
+	private String logradouro;
+	private String numero;
 }
